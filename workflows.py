@@ -5,7 +5,7 @@ from temporalio import workflow
 with workflow.unsafe.imports_passed_through():
     from activities import check_connectivity
 
-@workflow.def
+@workflow.defn
 class LabTestWorkflow:
     @workflow.run
     async def run(self, ip_to_test: str) -> str:

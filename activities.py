@@ -1,7 +1,7 @@
 import subprocess
 from temporalio import activity
 
-@activity.def
+@activity.defn
 async def check_connectivity(target_ip: str) -> str:
     """Simple activity to ping a client in the lab."""
     try:
