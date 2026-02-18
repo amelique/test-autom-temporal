@@ -5,7 +5,7 @@ source for network lab : https://github.com/naveenachyuta/naf-temporal-2025/tree
 
 2) Install Temporal with python extension : https://docs.temporal.io/develop/python/set-up-your-local-python , (bc python used for the POC)
 
-Check that the temporal server can be launched : temporal server start-dev
+Check that the temporal server can be launched : `temporal server start-dev`
 
 3) Create a workflow and an activity : 
 - workflow : defines the sequence of activities and handles the state. Workflows are  deterministic (no variables, all external interactions must go through activities).
@@ -43,6 +43,12 @@ async def configure_interface(interface_name: str) -> str:
 4) Run the POC by creating a worker : process that polls the Temporal Server for tasks and executes your code.
 - Start the Worker by creating a `run_worker.py` script to register your Workflows/Activities.
 - Trigger the Workflow: Use a `start_workflow.py` script or the Temporal CLI to start the process.
+
+To have temporalio : 
+- start the server `temporal server start-dev`
+- `python3 -m venv env`
+- `source env/bin/activate`
+- `pip install temporalio`
 
 
 
