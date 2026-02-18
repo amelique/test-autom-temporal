@@ -45,11 +45,16 @@ async def configure_interface(interface_name: str) -> str:
 - Trigger the Workflow: Use a `start_workflow.py` script or the Temporal CLI to start the process.
 
 To have temporalio : 
-- start the server `temporal server start-dev`
 - `python3 -m venv env`
 - `source env/bin/activate`
 - `pip install temporalio`
 
+To run the test : 
+- start the server `temporal server start-dev`
+- `source env/bin/activate`
+`python3 run_worker.py`
+- `source env/bin/activate`
+`python3 start_test.py`
 
 
 Notes : 
