@@ -49,4 +49,5 @@ async def configure_interface(interface_name: str) -> str:
 Notes : 
 temporal is available with a wide range of languages  python, ruby, java, php … as long as the correct extension is installed
 
+![Structure](images/schema.png)
 
