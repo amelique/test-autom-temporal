@@ -1,9 +1,9 @@
 source for network lab : https://github.com/naveenachyuta/naf-temporal-2025/tree/main
 
 # Step by step summary
-1) Set up a lab on a Linux VM following : [GitHub - naveenachyuta/naf-temporal-2025](https://GitHub - naveenachyuta/naf-temporal-2025)
+1) Set up a lab on a Linux VM following : [GitHub - naveenachyuta/naf-temporal-2025]([https://GitHub - naveenachyuta/naf-temporal-2025](https://github.com/naveenachyuta/naf-temporal-2025/tree/main))
 
-2) Install Temporal with python extension : [Set up your local with the Python SDK | Temporal Platform Documentation](https://Set up your local with the Python SDK | Temporal Platform Documentation) , (bc python used for the POC)
+2) Install Temporal with python extension : [Set up your local with the Python SDK | Temporal Platform Documentation]([https://Set up your local with the Python SDK | Temporal Platform Documentatio](https://docs.temporal.io/develop/python/set-up-your-local-python)n) , (bc python used for the POC)
 
 Check that the temporal server can be launched : temporal server start-dev
 
