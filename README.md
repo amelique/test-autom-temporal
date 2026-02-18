@@ -36,5 +36,5 @@ To run the test :
 Notes : 
 temporal is available with a wide range of languages  python, ruby, java, php … as long as the correct extension is installed
 
-![Structure](Temporal-schéma.drawio.png (1))
+![Structure](Temporal-schéma.drawio (1).png)
 
